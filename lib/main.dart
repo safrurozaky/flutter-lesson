@@ -27,6 +27,7 @@ class _MyWidgetState extends State<MyWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         leading: Icon(Icons.arrow_back_ios),
         title: Text('Lesson'),
         actions: [
