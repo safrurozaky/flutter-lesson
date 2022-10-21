@@ -28,6 +28,13 @@ class _MyWidgetState extends State<MyWidget> {
     return Scaffold(
       appBar: AppBar(
         leading: Icon(Icons.arrow_back_ios),
+        title: Text('Lesson'),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.more_vert_outlined),
+          ),
+        ],
       ),
     );
   }
