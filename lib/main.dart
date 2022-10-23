@@ -203,7 +203,7 @@ class _MyWidgetState extends State<MyWidget> {
                         shadows: [
                           Shadow(
                             color: Colors.blue,
-                            blurRadius: 50.0,
+                            blurRadius: 30.0,
                           )
                         ],
                       ),
