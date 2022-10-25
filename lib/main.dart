@@ -93,7 +93,7 @@ class _MyWidgetState extends State<MyWidget> {
                         padding: const EdgeInsets.all(25.0),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
+                          children: const [
                             Icon(
                               Icons.format_quote_outlined,
                               size: 30,
@@ -131,7 +131,7 @@ class _MyWidgetState extends State<MyWidget> {
                             vertical: 5.0, horizontal: 20.0),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.end,
-                          children: [
+                          children: const [
                             Icon(
                               Icons.format_quote_outlined,
                               size: 30,
@@ -146,7 +146,7 @@ class _MyWidgetState extends State<MyWidget> {
                   padding: const EdgeInsets.symmetric(vertical: 10.0),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
+                    children: const [
                       Icon(
                         Icons.circle,
                         color: Colors.blue,
@@ -184,7 +184,7 @@ class _MyWidgetState extends State<MyWidget> {
                     ],
                   ),
                   child: TextFormField(
-                    decoration: new InputDecoration(
+                    decoration: InputDecoration(
                       hintText: "Your answer...",
                       border: InputBorder.none,
                       contentPadding: EdgeInsets.only(left: 25, top: 25),
@@ -195,7 +195,7 @@ class _MyWidgetState extends State<MyWidget> {
                   padding: const EdgeInsets.symmetric(vertical: 10.0),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
+                    children: const [
                       Icon(
                         Icons.check_circle_sharp,
                         size: 50,
